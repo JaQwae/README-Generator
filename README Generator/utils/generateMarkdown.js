@@ -16,6 +16,6 @@
 
 // `;
 // }
-let generateMarkdown = 'linked'; //delete once start to implement code
+// let generateMarkdown = 'linked'; //delete once start to implement code
 
-module.exports = generateMarkdown;
+// module.exports = generateMarkdown;

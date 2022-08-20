@@ -1,1 +1,1 @@
-{"projTitle":"J","projDesc":"l"}
+{"title":"J","description":"W","install":"E","usage":"R","contributors":"G","tests":"S"}

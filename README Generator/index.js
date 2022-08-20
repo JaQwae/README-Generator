@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+//Packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
@@ -82,29 +82,18 @@ const questions =  //do we need to set this to a variable
         ])
 
 .then(answers => {
-    // console.log(answers.title)
-    const title = answers.title;
-    console.log(title);
 
-    // console.log(answers.description)
-    const description = answers.description;
-    console.log(description);
+    console.log(answers.title);
 
-    // console.log(answers.install)
-    const install = answers.install;
-    console.log(install);
+    console.log(answers.description);
 
-    // console.log(answers.usage)
-    const usage = answers.usage;
-    console.log(usage);
+    console.log(answers.install);
 
-    // console.log(answers.contributors)
-    const contributors = answers.contributors;
-    console.log(contributors);
+    console.log(answers.usage);
 
-    // console.log(answers.tests)
-    const tests = answers.tests;
-    console.log(tests);
+    console.log(answers.contributors);
+
+    console.log(answers.tests);
 })
 
 // TODO: Create a function to write README file
@@ -121,3 +110,6 @@ const questions =  //do we need to set this to a variable
 
 // Function call to initialize app
 // init();
+
+//exports
+module.exports = questions;

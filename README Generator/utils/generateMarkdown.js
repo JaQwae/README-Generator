@@ -1,3 +1,8 @@
+//Packages needed for this application
+const inquirer = require('inquirer');
+const fs = require('fs');
+const index = require('../index'); //why two dots here
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 // function renderLicenseBadge(license) {}
@@ -14,6 +19,6 @@
 function generateMarkdown(answers) {
   return `# ${answers.title}`;
 }
-// let generateMarkdown = 'linked'; //delete once start to implement code
 
+// export
 module.exports = generateMarkdown;

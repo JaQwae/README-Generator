@@ -82,20 +82,26 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// .then((data) => {
-//     fs.writeFile('README.md', JSON.stringify(data) ,(err) =>
-//         err ? console.error(err) : console.log('Success! Your README file has been generated.')
-//     );
-// });
+const writeToFile = answersInputs => {
+    return new Promise ((resolve, reject) => {
+        fs.writeFile('./README.md', answersInputs, err => {
+            if (err) {
+                reject(err);
+                return;
+            }
+            resolve({
+                ok: true
+            });
+        });
+    });
+};
 
 // Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then((answers) => {
-        // console.log(answers);
-    var answerInputs = generateMarkdown(answers);
+    let answersInputs = generateMarkdown(answers);
+    writeToFile(answersInputs)
     });
 }
 

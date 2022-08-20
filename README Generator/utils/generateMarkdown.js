@@ -18,8 +18,8 @@ const index = require('../index'); //why two dots here
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
   console.log(answers.title)
-  // return `
-  // # ${answers.title}`;
+  return `
+  # ${answers.title}`;
 }
 
 // export

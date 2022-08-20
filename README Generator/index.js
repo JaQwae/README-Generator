@@ -94,7 +94,7 @@ const questions =  //do we need to set this to a variable
     console.log(answers.contributors);
 
     console.log(answers.tests);
-})
+});
 
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
@@ -105,11 +105,16 @@ const questions =  //do we need to set this to a variable
 //     );
 // });
 
-// TODO: Create a function to initialize app
-// function init() {}
+// Create a function to initialize app
+function init() {
+    inquirer.prompt(questions)
+        .then(function(answers) {
+            console.log(answers);
+    });
+}
 
 // Function call to initialize app
-// init();
+init();
 
 //exports
 module.exports = questions;

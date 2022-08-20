@@ -80,16 +80,41 @@ const questions =  //do we need to set this to a variable
                 }
             },
         ])
+
+.then(answers => {
+    // console.log(answers.title)
+    const title = answers.title;
+    console.log(title);
+
+    // console.log(answers.description)
+    const description = answers.description;
+    console.log(description);
+
+    // console.log(answers.install)
+    const install = answers.install;
+    console.log(install);
+
+    // console.log(answers.usage)
+    const usage = answers.usage;
+    console.log(usage);
+
+    // console.log(answers.contributors)
+    const contributors = answers.contributors;
+    console.log(contributors);
+
+    // console.log(answers.tests)
+    const tests = answers.tests;
+    console.log(tests);
+})
+
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
 
-.then((data) => {
-    fs.writeFile('README.md', JSON.stringify(data) ,(err) =>
-        err ? console.error(err) : console.log('Success! Your README file has been generated.')
-    );
-});
-
-// console.log(questions.ui.answers)
+// .then((data) => {
+//     fs.writeFile('README.md', JSON.stringify(data) ,(err) =>
+//         err ? console.error(err) : console.log('Success! Your README file has been generated.')
+//     );
+// });
 
 // TODO: Create a function to initialize app
 // function init() {}

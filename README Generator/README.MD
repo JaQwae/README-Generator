@@ -1,1 +1,1 @@
-{"title":"J","description":"W","install":"E","usage":"R","contributors":"G","tests":"S"}
+{"title":"J","description":"g","install":"d","usage":"s","contributors":"sf","tests":"s"}

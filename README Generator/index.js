@@ -94,7 +94,8 @@ const questions = [
 function init() {
     inquirer.prompt(questions)
     .then((answers) => {
-        console.log(answers);
+        // console.log(answers);
+    var answerInputs = generateMarkdown(answers);
     });
 }
 

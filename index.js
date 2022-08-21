@@ -14,7 +14,7 @@ const questions = [
             if(title){
                 return true
             } else{
-                return 'Required field left blank, please enter a value.'
+                return 'Required field left blank, please enter a title.'
             }
         }
     },
@@ -26,7 +26,19 @@ const questions = [
             if(description){
                 return true
             } else{
-                return 'Required field left blank, please enter a value.'
+                return 'Required field left blank, please enter a description.'
+            }
+        }
+    },
+    {
+        type: 'input',
+        message: 'How do you install your application?',
+        name: 'install',
+        validate: (install) =>{
+            if(install){
+                return true
+            } else{
+                return 'Required field left blank, please list the required tools needed to run your program.'
             }
         }
     },
@@ -38,7 +50,7 @@ const questions = [
             if(currentFeatures){
                 return true
             } else{
-                return 'Required field left blank, please enter a value.'
+                return 'Required field left blank, please enter a key feature.'
             }
         }
     },
@@ -56,21 +68,10 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'How do you install your application?',
-        name: 'install',
-        validate: (install) =>{
-            if(install){
-                return true
-            } else{
-                return 'Required field left blank, please enter a value.'
-            }
-        }
-    },
-    {
-        type: 'input',
-        message: 'Usage information?', //what does this mean?
+        message: 'What is the file name of the screenshot for this project? (name only and image must lie in .assets/images folder structure)', //what does this mean?
         name: 'usage',
         validate: (usage) =>{
+            //TODO: add functionality to only accept the file name
             if(usage){
                 return true
             } else{
@@ -86,32 +87,32 @@ const questions = [
             if(contributors){
                 return true
             } else{
-                return 'Required field left blank, please enter a value.'
+                return 'Required field left blank, please enter at least one contributor.'
             }
         }
     },
     {
         type: 'input',
-        message: 'Test?', //what does this mean?
+        message: 'Test?',
         name: 'tests',
-        validate: (tests) =>{ //Do we need to require this section?
-            if(tests){
-                return true
-            } else{
-                return 'Required field left blank, please enter a value.'
-            }
-        }
+        // validate: (tests) =>{
+        //     if(tests){
+        //         return true
+        //     } else{
+        //         return 'Required field left blank, please enter a value.'
+        //     }
+        // }
     },
     //Install license here
     {
         type: 'input',
         message: 'What is your GitHub username?',
         name: 'gitHub',
-        validate: (gitHub) =>{ //Do we need to require this section?
+        validate: (gitHub) =>{ 
             if(gitHub){
                 return true
             } else{
-                return 'Required field left blank, please enter a value.'
+                return 'Required field left blank, please enter your username.'
             }
         }
     },
@@ -119,6 +120,7 @@ const questions = [
         type: 'input',
         message: 'What is your email address?',
         name: 'email',
+        // TODO: add funtionality that only execepts valid email address
         validate: (email) =>{ 
             if(email){
                 return true

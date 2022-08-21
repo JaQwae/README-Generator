@@ -103,7 +103,19 @@ const questions = [
         //     }
         // }
     },
-    //Install license here
+    {
+        type: 'list',
+        message: 'What license does your program use?',
+        name: 'license',
+        choices: ['None', 'Apache license 2.0', 'MIT', 'Open Software License 3.0'],
+        validate: (license) =>{
+            if(license){
+                return true
+            } else{
+                return 'Required field left blank, please select a choice.'
+            }
+        }
+    },
     {
         type: 'input',
         message: 'What is your GitHub username?',

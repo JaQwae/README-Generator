@@ -4,7 +4,7 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
-// TODO: Create an array of questions for user input
+//Array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -78,10 +78,34 @@ const questions = [
             }
         }
     },
-]
+    //Install license here
+    {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'gitHub',
+        validate: (gitHub) =>{ //Do we need to require this section?
+            if(gitHub){
+                return true
+            } else{
+                return 'Required field left blank, please enter a value.'
+            }
+        }
+    },
+    {
+        type: 'input',
+        message: 'What is your email address?',
+        name: 'email',
+        validate: (email) =>{ 
+            if(email){
+                return true
+            } else{
+                return 'Required field left blank, please enter a value.'
+            }
+        }
+    },]
 
 
-// TODO: Create a function to write README file
+// Writes README file
 const writeToFile = answersInputs => {
     return new Promise ((resolve, reject) => {
         fs.writeFile('./README.md', answersInputs, err => {

@@ -17,10 +17,39 @@ const index = require('../index'); //why two dots here
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
-  console.log(answers.title)
-  return `
-  # ${answers.title}`;
-}
+  // console.log(answers.title)
+return `
+# ${answers.title}
+  
+## Description:
+${answers.description}
+
+[Deployed link]()
+
+## Table of Contents:
+### [Installation](#installation)
+### [Usage](#usage)
+### [Contributions](#contributions)
+### [License](#license)
+### [Tests](#tests)
+### [Questions](#questions)
+
+## Installation:
+${answers.install}
+## Usage:
+${answers.usage}
+
+![alt text]()
+## Contributors:
+${answers.contributors}
+## Tests:
+${answers.tests}
+## Questions:
+### Question? Contact me here:
+#### GitHub: ${answers.gitHub}
+#### Email: ${answers.email}
+
+`;}
 
 // export
 module.exports = generateMarkdown;

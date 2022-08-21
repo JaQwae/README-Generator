@@ -1,10 +1,12 @@
-
 # j
-  
+
 ## Description:
 a
 
-[Deployed link]()
+### Features
+q
+
+[Deployed link](insert link)
 
 ## Table of Contents:
 ### [Installation](#installation)
@@ -15,16 +17,21 @@ a
 ### [Questions](#questions)
 
 ## Installation:
-q
-## Usage:
 w
 
-![alt text]()
-## Contributors:
+## Usage:
 a
+
+![insert image description here](insert image pathway)
+
+## Contributors:
+e
+
 ## Tests:
 e
+
 ## Questions:
 ### Question? Contact me here:
-#### GitHub: l
-#### Email: i
+GitHub: https://github.com/l
+Email: l
+

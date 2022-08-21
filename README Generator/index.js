@@ -32,6 +32,18 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'What are some notable features in this project?',
+        name: 'features',
+        validate: (features) =>{
+            if(features){
+                return true
+            } else{
+                return 'Required field left blank, please enter a value.'
+            }
+        }
+    },
+    {
+        type: 'input',
         message: 'How do you install your application?',
         name: 'install',
         validate: (install) =>{

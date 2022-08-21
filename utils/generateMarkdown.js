@@ -24,13 +24,6 @@ ${answers.description}
 
 [Deployed link](insert link)
 
-### Features
-- Notable features of this project includes:
-  - ${answers.currentFeatures}
-
-- Future feature implementation includes:
-  - ${answers.futureFeatures}
-
 ## Badges:
 
 ## Table of Contents:
@@ -42,13 +35,20 @@ ${answers.description}
 ### [Questions](#questions)
 
 ## Installation:
-${answers.install}
+/To /execute this program, please follow the instructions below:
+  - ${answers.install}
 
 ## Usage:
-${answers.usage}
+
+### Features
+- Notable features of this project includes:
+  - ${answers.currentFeatures}
+
+- Future feature implementation includes:
+  - ${answers.futureFeatures}
 
 ### Images
-![insert image description here](insert image pathway)
+![insert image description here](./images/${answers.usage}.png)
 
 ## Contributors:
 ${answers.contributors}

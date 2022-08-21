@@ -22,10 +22,16 @@ return `# ${answers.title}
 ## Description:
 ${answers.description}
 
-### Features
-${answers.features}
-
 [Deployed link](insert link)
+
+### Features
+- Notable features of this project includes:
+  - ${answers.currentFeatures}
+
+- Future feature implementation includes:
+  - ${answers.futureFeatures}
+
+## Badges:
 
 ## Table of Contents:
 ### [Installation](#installation)
@@ -41,6 +47,7 @@ ${answers.install}
 ## Usage:
 ${answers.usage}
 
+### Images
 ![insert image description here](insert image pathway)
 
 ## Contributors:

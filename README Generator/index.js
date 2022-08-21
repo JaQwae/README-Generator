@@ -33,14 +33,26 @@ const questions = [
     {
         type: 'input',
         message: 'What are some notable features in this project?',
-        name: 'features',
-        validate: (features) =>{
-            if(features){
+        name: 'currentFeatures',
+        validate: (currentFeatures) =>{
+            if(currentFeatures){
                 return true
             } else{
                 return 'Required field left blank, please enter a value.'
             }
         }
+    },
+    {
+        type: 'input',
+        message: 'What are some future features that you plan on implementing in this project?',
+        name: 'futureFeatures',
+        // validate: (futureFeatures) =>{
+        //     if(futureFeatures){
+        //         return true
+        //     } else{
+        //         return 'Required field left blank, please enter a value.'
+        //     }
+        // }
     },
     {
         type: 'input',

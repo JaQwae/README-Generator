@@ -92,18 +92,6 @@ const questions = [
         }
     },
     {
-        type: 'input',
-        message: 'Test?',
-        name: 'tests',
-        // validate: (tests) =>{
-        //     if(tests){
-        //         return true
-        //     } else{
-        //         return 'Required field left blank, please enter a value.'
-        //     }
-        // }
-    },
-    {
         type: 'list',
         message: 'What license does your program use?',
         name: 'license',
@@ -115,6 +103,18 @@ const questions = [
                 return 'Required field left blank, please select a choice.'
             }
         }
+    },
+    {
+        type: 'input',
+        message: 'Test?',
+        name: 'tests',
+        // validate: (tests) =>{
+        //     if(tests){
+        //         return true
+        //     } else{
+        //         return 'Required field left blank, please enter a value.'
+        //     }
+        // }
     },
     {
         type: 'input',

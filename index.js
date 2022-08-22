@@ -95,7 +95,7 @@ const questions = [
         type: 'list',
         message: 'What license does your program use?',
         name: 'license',
-        choices: ['None', 'Apache license 2.0', 'MIT', 'Open Software License 3.0'],
+        choices: ['None', 'Apache license 2.0', 'MIT', 'Open Database License'],
         validate: (license) =>{
             if(license){
                 return true

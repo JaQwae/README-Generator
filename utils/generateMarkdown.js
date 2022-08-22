@@ -3,8 +3,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const index = require('../index'); //why two dots here
 
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// TODO: condense 3 license functions down to one
+// Returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
   let licenseBadge = '';
   if(license === 'Apache license 2.0') {
@@ -96,5 +96,5 @@ Email: ${answers.email}
 
 `;}
 
-// export
+// exports
 module.exports = generateMarkdown;

@@ -132,7 +132,7 @@ const questions = [
         type: 'input',
         message: 'What is your email address?',
         name: 'email',
-        // TODO: add funtionality that only execepts valid email address
+        // TODO: add functionality that only excepts valid email address
         validate: (email) =>{ 
             if(email){
                 return true

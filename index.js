@@ -38,7 +38,7 @@ const questions = [
             if(install){
                 return true
             } else{
-                return 'Required field left blank, please list the required tools needed to run your program.'
+                return 'Required field left blank, please list the required tools and steps needed to run your program.'
             }
         }
     },
@@ -50,13 +50,13 @@ const questions = [
             if(currentFeatures){
                 return true
             } else{
-                return 'Required field left blank, please enter a key feature.'
+                return 'Required field left blank, please enter at least one key feature.'
             }
         }
     },
     {
         type: 'input',
-        message: 'What are some future features that you plan on implementing in this project?',
+        message: 'What are some features that you plan on implementing in this project?',
         name: 'futureFeatures',
         // validate: (futureFeatures) =>{
         //     if(futureFeatures){
@@ -68,14 +68,14 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What is the file name of the screenshot for this project? (name only and image must lie in .assets/images folder structure)', //what does this mean?
+        message: 'What is the file name of the screenshot for this project? (name only (exclude .png), image must lie in .assets/images folder structure)',
         name: 'usage',
         validate: (usage) =>{
             //TODO: add functionality to only accept the file name
             if(usage){
                 return true
             } else{
-                return 'Required field left blank, please enter a value.'
+                return 'Required field left blank, please enter the file name of the screenshot from images folder.'
             }
         }
     },
@@ -96,13 +96,13 @@ const questions = [
         message: 'What license does your program use?',
         name: 'license',
         choices: ['None', 'Apache license 2.0', 'MIT', 'Open Database License'],
-        validate: (license) =>{
-            if(license){
-                return true
-            } else{
-                return 'Required field left blank, please select a choice.'
-            }
-        }
+    //     validate: (license) =>{
+    //         if(license){
+    //             return true
+    //         } else{
+    //             return 'Required field left blank, please select a choice.'
+    //         }
+    //     }
     },
     {
         type: 'input',
@@ -124,7 +124,7 @@ const questions = [
             if(gitHub){
                 return true
             } else{
-                return 'Required field left blank, please enter your username.'
+                return 'Required field left blank, please enter your git username.'
             }
         }
     },
@@ -137,7 +137,7 @@ const questions = [
             if(email){
                 return true
             } else{
-                return 'Required field left blank, please enter a value.'
+                return 'Required field left blank, please enter a valid email.'
             }
         }
     },]

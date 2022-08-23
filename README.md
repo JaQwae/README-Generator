@@ -1,47 +1,99 @@
-# dfasfsadg
+
+# Professional README Generator
+
+  
 
 ## Description:
-asdg
 
-[Deployed link](insert link)
+This program asks the user various questions about their project, and generates a README file based on their responses.
+
+  
+
+[Deployed link](https://github.com/JaQwae/README-Generator)
+
+  
 
 ## Table of Contents:
+
 ### [Installation](#installation)
+
 ### [Usage](#usage)
+
 ### [Contributors](#contributors)
+
 ### [Licenses](#licenses)
+
 ### [Tests](#tests)
+
 ### [Questions](#questions)
 
+  
+
 ## Installation:
-/To run this application, you must complete the following steps:
-  - asdg
-  -If /all steps above are completed correctly, /then the application should YOU.
+
+To run this application, you must complete the following steps:
+
+- First, download node.js and vs code. 
+- Next, open the corresponding terminal for this program’s node index.js file. 
+- Then, type npm i in the terminal. 
+- Lastly, complete all of the required answers in the prompt. If all step above are completed correctly, then the application should generate a readme
+
+-If all steps above are completed correctly, /then the application should generate a README.
+
+  
 
 ## Usage:
 
+  
+
 ### Features:
+
 - Notable features of this project includes:
-  - asdg
+
+	- A user friendly prompt that guides the user through all the sections of a typical README. 
+	- Auto generation of the README file upon completing the prompt
 
 - Future feature implementation includes:
-  - asdg
+
+	- Allowing the user to input in more than one answer so that they don’t have to format it themselves for various sections (where applicable). 
+	- Expanding the selection of license choices. 
+	- Placing restrictions on the email section to only accept a valid email choice. 
+	- Placing restrictions on the image section to only accept the file name. 
+	- Fixing bugs with conflicting key words in the README template.
+
+  
 
 ### Images:
-![insert image description here](.assets/images/asd.png)
+
+![insert image description here](.assets/images/adfadf.png)
+
+  
 
 ## Contributors:
-- gasdgasdgasd
+
+- JaQwae Ellison
+- Xander Rapstine
+- Grace Choi
+
+  
 
 ## Licenses:
-No licenses were used 
 
+No licenses were used
+
+  
+  
 
 ## Tests:
-daasdgasgd
+-None
+  
+  
 
 ## Questions:
+
 ### Contact me here:
-GitHub: https://github.com/gasdgasdgasdg
-Email: sadgasdgsadg
+
+GitHub: https://github.com/JaQwae
+
+Email: jaqwaeellison@gmail.com
 

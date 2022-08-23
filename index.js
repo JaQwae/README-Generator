@@ -140,7 +140,21 @@ const questions = [
                 return 'Required field left blank, please enter a valid email.'
             }
         }
-    },]
+    },
+    {
+        type: 'input',
+        message: 'What is this application intended to do?',
+        name: 'outcome',
+        // TODO: add functionality that only excepts valid email address
+        validate: (outcome) =>{ 
+            if(outcome){
+                return true
+            } else{
+                return 'Required field left blank, please enter the desire outcome of your project.'
+            }
+        }
+    },
+]
 
 
 // Writes README file

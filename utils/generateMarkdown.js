@@ -67,6 +67,7 @@ ${answers.description}
 ## Installation:
 /To run this application, you must complete the following steps:
   - ${answers.install}
+  -If /all steps above are completed correctly, /then the application should ${answers.outcome}.
 
 ## Usage:
 

@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const index = require('../index'); //why two dots here
+const questions = require('../index');
 
 // TODO: condense 3 license functions down to one
 // Returns a license badge based on which license is passed in
@@ -58,13 +59,13 @@ ${answers.description}
 ## Table of Contents:
 ### [Installation](#installation)
 ### [Usage](#usage)
-### [Contributions](#contributions)
-### [License](#license)
+### [Contributors](#contributors)
+### [Licenses](#licenses)
 ### [Tests](#tests)
 ### [Questions](#questions)
 
 ## Installation:
-/To /execute this program, please follow the instructions below:
+/To run this application, you must complete the following steps:
   - ${answers.install}
 
 ## Usage:

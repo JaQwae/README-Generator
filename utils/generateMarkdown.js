@@ -91,7 +91,7 @@ ${renderLicenseLink(answers.license)}
 ${answers.tests}
 
 ## Questions:
-### Question? Contact me here:
+### Contact me here:
 GitHub: https://github.com/${answers.gitHub}
 Email: ${answers.email}
 

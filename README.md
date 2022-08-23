@@ -1,7 +1,7 @@
-# asdfasg
+# adfasdf
 
 ## Description:
-asd
+asdf
 
 [Deployed link](insert link)
 
@@ -14,33 +14,33 @@ asd
 ### [Questions](#questions)
 
 ## Installation:
-/To /execute this program, please follow the instructions below:
-  - asdg
+/To run this application, you must complete the following steps:
+  - asdf
 
 ## Usage:
 
 ### Features:
 - Notable features of this project includes:
-  - asdgasdasdgasdg
+  - asdf
 
 - Future feature implementation includes:
-  - asdgasdgas
+  - asd
 
 ### Images:
-![insert image description here](.assets/images/asdgasdfasdf.png)
+![insert image description here](.assets/images/fasdf.png)
 
 ## Contributors:
-- fsdafasdfs
+- asdfasf
 
 ## Licenses:
-Open Database License ![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)
+No licenses were used 
 
 
 ## Tests:
-sddffasdfasdfdssa
+dafasdfasdf
 
 ## Questions:
-### Question? Contact me here:
-GitHub: https://github.com/sadfasdfafdas
-Email: fsdafasdfasd
+### Contact me here:
+GitHub: https://github.com/sadfasdfsad
+Email: fasdfasdfsd
 
